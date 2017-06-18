@@ -221,6 +221,7 @@
 	margin-right: 0;
 }
 .article-img {
+	position: relative;
 	overflow: hidden;
 }
 .article-item img {
@@ -244,4 +245,26 @@ h3.title a:hover {
 .article-footer p {
 	 color: #646464;
 	 font: 12px/24px Arial;
+}
+.zoom {
+	position: absolute;
+	padding-right: 15px;
+	padding-top: 10px;
+	top: 0;
+	right: 0;
+	height: 78px;
+	width: 78px;
+	background: url(../img/zoom-bg.png) no-repeat;
+	text-align: right;
+
+}
+.zoom a {
+	font-family: Tahoma;
+	display: inline-block;
+	position: 5px 8px;
+	color: #fff;
+	font-size: 25px;
+}
+.zoom a:hover {
+	font-weight: bold;
 }
