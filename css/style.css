@@ -229,7 +229,7 @@
 	height: 190px;
 }
 .article-footer {
-	padding: 24px 0 55px 28px;
+	padding: 24px 28px 55px 28px;
 }
 h3.title {
 	font: bold 25px/31px Arial;
@@ -267,4 +267,88 @@ h3.title a:hover {
 }
 .zoom a:hover {
 	font-weight: bold;
+}
+.sidebar {
+	width: 300px;
+}
+.content {
+	margin-right: 320px;
+}
+.news-bl {
+	position: relative;
+	background-color: #373737;
+	color: #fff;
+}
+.news-bl p,
+.news-bl h3.title a {
+	color: #fff;
+}
+.news-bl h3.title a:hover {
+	color: #ccc;
+}
+.news-item {
+	margin-bottom: 15px;
+	border-left: 4px solid #f26c4f;
+	padding: 35px;
+	background-color: #fff;
+	-webkit-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
+	   -moz-box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
+	        box-shadow: 0px 1px 1px 0px rgba(0,0,0,0.15);
+}
+.news-item.selected {
+	background: #f26c4f;
+	border-color: #ce4e32;
+}
+.title-news {
+	font-weight: bold;
+	color: #474747;
+	margin-bottom: 10px;
+}
+h4.title-news {
+	font-size: 24px;
+}
+h4.title-news a {
+	color: inherit;
+}
+h4.title-news a:hover {
+	color: #000;
+}
+.news-item p {
+	line-height: 21px;
+	color: #707070;
+}
+.news-item.selected p,
+.news-item.selected .news-pannel,
+.news-item.selected .title-news {
+	color: #fff;
+}
+.news-pannel {
+	margin-bottom: 10px;
+	color: #8f8f8f;
+	font-size: 0;
+	height: 20px;
+}
+.news-pannel span {
+	display: inline-block;
+	font: 10px Tahoma, sans-serif;
+	vertical-align: middle;
+}
+.divide {
+	width: 1px;
+	height: 21px;
+	background: #dfdfdf;
+	margin: 0 30px;
+}
+.rate {
+	width: 65px;
+	margin-right: 5px;
+}
+.rate span {
+	width: 92%;
+	height: 14px;
+	background: url(../img/star.png) repeat-x;
+}
+.news-item.selected .rate span {
+	width: 74%;
+	background-position: 0 -14px;
 }
