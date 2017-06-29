@@ -236,6 +236,11 @@ h3.title {
 	margin-bottom: 10px;
 	color: #4f4f4f;
 }
+h5.title {
+	font: bold 19px/24px Arial;
+	margin-bottom: 10px;
+	color: #474747;
+}
 h3.title a {
 	color: #4f4f4f;
 }
@@ -278,6 +283,9 @@ h3.title a:hover {
 	position: relative;
 	background-color: #373737;
 	color: #fff;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(211, 211, 211, 1);
+	   -moz-box-shadow: 0px 1px 0px 0px rgba(211, 211, 211, 1);
+            box-shadow: 0px 1px 0px 0px rgba(211, 211, 211, 1);
 }
 .news-bl p,
 .news-bl h3.title a {
@@ -286,6 +294,65 @@ h3.title a:hover {
 .news-bl h3.title a:hover {
 	color: #ccc;
 }
+.news-bl1 {
+	padding: 30px 10px 0 15px;
+}
+.news-bl1 p {
+	font-size: 12px;
+	line-height: 23px;	
+	color: #a7a7a7;
+	margin-bottom: 15px;
+}
+.news-bl1 .n-date {
+	display: block;
+	font: 12px/21px Arial, sans-serif;
+	color: #8f8f8f;
+	margin-bottom: 20px;
+}
+.news-bl1:nth-of-type(3) {
+	padding-bottom: 10px;
+}
+.news-bl1:nth-of-type(3) .n-date {
+	margin-bottom: 14px;
+}
+.line {
+	height: 1px;
+	width: 100%;
+	background-color: #d9d9d9;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);
+	   -moz-box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);
+            box-shadow: 0px 1px 0px 0px rgba(255, 255, 255, 1);
+}
+.sidebar-link {
+	font-size: 0;
+	background-color: #fff;
+	margin-bottom: 5px;
+	padding: 15px 0 15px 25px;
+	border-left: 3px solid #cacaca;
+	border-bottom: 1px solid #cacaca;
+	-webkit-box-shadow: 0px 1px 0px 0px rgba(224, 224, 224, 1);
+	   -moz-box-shadow: 0px 1px 0px 0px rgba(224, 224, 224, 1);
+            box-shadow: 0px 1px 0px 0px rgba(224, 224, 224, 1);
+}
+.sidebar-link a {
+	display: inline-block;
+	margin-right: 10px;
+	font-size: 16px;
+	font-weight: bold;
+	color: #474747;
+    vertical-align: middle;
+}
+.sidebar-link:last-child a,
+.sidebar-link a:hover {
+	font-weight: normal;
+}
+.sidebar-link span {
+	display: inline-block;
+	font-size: 12px;
+	color: #a7a7a7;
+    vertical-align: middle;
+}
+
 .news-item {
 	margin-bottom: 15px;
 	border-left: 4px solid #f26c4f;
@@ -421,7 +488,7 @@ h5.title-news a:hover {
 	        text-shadow: rgba(255, 255, 255, 1);
 }
 .text-box-1 {
-	padding: 30px 30px 30px 50px;
+	padding: 30px 43px 30px 50px;
 	background-color: #fff;
 	color: #707070;
 	margin-bottom: 1px;
@@ -436,6 +503,7 @@ h2.title {
 }
 .text-box-1 p {
 	font-weight: bold;
+	line-height: 24px;
 }
 .text-box-1 p:first-of-type {
 	margin-bottom: 40px
